@@ -1,0 +1,1545 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cf7b1f9e58432abc5415aadf27771b68 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_cf7b1f9e58432abc5415aadf27771b68" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_cf7b1f9e58432abc5415aadf27771b68 = L.map(
+                "map_cf7b1f9e58432abc5415aadf27771b68",
+                {
+                    center: [53.8, 21.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c824648a11abd78ad53fbfd698e00b86 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_c824648a11abd78ad53fbfd698e00b86.addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var marker_7babdf0d7108202df4b28f03f7033658 = L.marker(
+                [53.897583, 21.66505],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_3b8aaf36f02a53ccd5ec4ddce7be9bda = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_74f96a7dc4cab8706dcf953201ec532e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0eb1e431e5ead17d9e0b2b3dc39ee0ee = $(`<div id="html_0eb1e431e5ead17d9e0b2b3dc39ee0ee" style="width: 100.0%; height: 100.0%;"><b>96.5 pkt</b> &mdash; <i>olx</i><br>Warmińsko-mazurskie, Szymonka<br>3.0 m od: Szymoneckie<br>3970000.0 zł / 6500.0 m²<br><a href='https://www.olx.pl/d/oferta/dzialka-budowlana-6500m2-na-szlaku-jeziora-szymoneckiegoz-linia-brzegowa-50m-CID3-ID1b11Ct.html' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_74f96a7dc4cab8706dcf953201ec532e.setContent(html_0eb1e431e5ead17d9e0b2b3dc39ee0ee);
+            
+        
+
+        marker_7babdf0d7108202df4b28f03f7033658.bindPopup(popup_74f96a7dc4cab8706dcf953201ec532e)
+        ;
+
+        
+    
+    
+                marker_7babdf0d7108202df4b28f03f7033658.setIcon(icon_3b8aaf36f02a53ccd5ec4ddce7be9bda);
+            
+    
+            var marker_2f31411f8f83dc4eb1159682a786a59f = L.marker(
+                [53.73872, 21.810387],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_5319f26ea369498d94edf074f11d5c71 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6e17fa5580ac050302e43dabb419a0d9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_83a9e8199dfb28b097fb59420fd1616b = $(`<div id="html_83a9e8199dfb28b097fb59420fd1616b" style="width: 100.0%; height: 100.0%;"><b>96.5 pkt</b> &mdash; <i>olx</i><br>Warmińsko-mazurskie, Kwik<br>0.0 m od: Białoławki<br>349000.0 zł / 3000.0 m²<br><a href='https://www.olx.pl/d/oferta/dzialki-z-linia-brzegowa-mazury-miejscowosc-kwik-jezioro-bialolawki-CID3-ID15QaqR.html' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_6e17fa5580ac050302e43dabb419a0d9.setContent(html_83a9e8199dfb28b097fb59420fd1616b);
+            
+        
+
+        marker_2f31411f8f83dc4eb1159682a786a59f.bindPopup(popup_6e17fa5580ac050302e43dabb419a0d9)
+        ;
+
+        
+    
+    
+                marker_2f31411f8f83dc4eb1159682a786a59f.setIcon(icon_5319f26ea369498d94edf074f11d5c71);
+            
+    
+            var marker_bc6dda40170ae905584cfa434300537c = L.marker(
+                [54.181297, 21.53466],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_b136574c15d94428981b96683280a742 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cc523104d93bbba4fb7e991740d6d708 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e963a4257c0be6dbcd4fda12b89d5fb3 = $(`<div id="html_e963a4257c0be6dbcd4fda12b89d5fb3" style="width: 100.0%; height: 100.0%;"><b>96.5 pkt</b> &mdash; <i>otodom</i><br>nan<br>35.0 m od: Silec<br>2800000.0 zł / 6256.0 m²<br><a href='https://www.otodom.pl/pl/oferta/gotowy-biznes-nad-jeziorem-z-wz-na-dom-ID4BEyv' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_cc523104d93bbba4fb7e991740d6d708.setContent(html_e963a4257c0be6dbcd4fda12b89d5fb3);
+            
+        
+
+        marker_bc6dda40170ae905584cfa434300537c.bindPopup(popup_cc523104d93bbba4fb7e991740d6d708)
+        ;
+
+        
+    
+    
+                marker_bc6dda40170ae905584cfa434300537c.setIcon(icon_b136574c15d94428981b96683280a742);
+            
+    
+            var marker_cfb4887826e4c783476ce87a386401d3 = L.marker(
+                [53.884476, 21.902185],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_b4d966992b83fd989d86cd2fa0dce3de = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_35936d863535883498f5dc1bc7d91dd5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ad25799b44e19e3acb13e82ebe5dc6e9 = $(`<div id="html_ad25799b44e19e3acb13e82ebe5dc6e9" style="width: 100.0%; height: 100.0%;"><b>91.2 pkt</b> &mdash; <i>olx</i><br>Warmińsko-mazurskie, Ublik<br>18.0 m od: Ublik Mały<br>425000.0 zł / 4725.0 m²<br><a href='https://www.olx.pl/d/oferta/dzialka-z-dostepem-do-jeziora-ublik-CID3-ID1aJ19Q.html' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_35936d863535883498f5dc1bc7d91dd5.setContent(html_ad25799b44e19e3acb13e82ebe5dc6e9);
+            
+        
+
+        marker_cfb4887826e4c783476ce87a386401d3.bindPopup(popup_35936d863535883498f5dc1bc7d91dd5)
+        ;
+
+        
+    
+    
+                marker_cfb4887826e4c783476ce87a386401d3.setIcon(icon_b4d966992b83fd989d86cd2fa0dce3de);
+            
+    
+            var marker_29b342f812a7b6c599a6a2513f2989ee = L.marker(
+                [53.702927, 21.052519],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_a059dcb420fa58423340a8c3aa2fc0d2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_655199cf3b781d5ad7c8b8adc22da562 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6b0d83ff43056fff1f1368dba17a710d = $(`<div id="html_6b0d83ff43056fff1f1368dba17a710d" style="width: 100.0%; height: 100.0%;"><b>91.2 pkt</b> &mdash; <i>olx</i><br>Warmińsko-mazurskie, Targowska Wólka<br>0.0 m od: Jezioro Rańskie<br>310000.0 zł / 4500.0 m²<br><a href='https://www.olx.pl/d/oferta/mazury-dzialki-nad-jeziorem-ranskim-linia-brzegowa-natura-2000-CID3-ID1aneyg.html' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_655199cf3b781d5ad7c8b8adc22da562.setContent(html_6b0d83ff43056fff1f1368dba17a710d);
+            
+        
+
+        marker_29b342f812a7b6c599a6a2513f2989ee.bindPopup(popup_655199cf3b781d5ad7c8b8adc22da562)
+        ;
+
+        
+    
+    
+                marker_29b342f812a7b6c599a6a2513f2989ee.setIcon(icon_a059dcb420fa58423340a8c3aa2fc0d2);
+            
+    
+            var marker_b7ce0305aa46460769dfc1608764a06e = L.marker(
+                [53.377365, 20.058987],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_0ec4ab09466b147484d86d7a2c52d336 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b03850fd4c7edb6950745a756d049a46 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2f29c4c159aee3662b0ec72ce0b5d862 = $(`<div id="html_2f29c4c159aee3662b0ec72ce0b5d862" style="width: 100.0%; height: 100.0%;"><b>91.2 pkt</b> &mdash; <i>olx</i><br>Warmińsko-mazurskie, Grzybiny<br>0.0 m od: Grzybiny<br>1290000.0 zł / 12600.0 m²<br><a href='https://www.olx.pl/d/oferta/dzialka-nad-jeziorem-1-26ha-z-linia-brzeg-z-uchwalonym-mpzp-CID3-IDPJDY2.html' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_b03850fd4c7edb6950745a756d049a46.setContent(html_2f29c4c159aee3662b0ec72ce0b5d862);
+            
+        
+
+        marker_b7ce0305aa46460769dfc1608764a06e.bindPopup(popup_b03850fd4c7edb6950745a756d049a46)
+        ;
+
+        
+    
+    
+                marker_b7ce0305aa46460769dfc1608764a06e.setIcon(icon_0ec4ab09466b147484d86d7a2c52d336);
+            
+    
+            var marker_99c5978bd7c735a32b6a5ed1d6cc4e82 = L.marker(
+                [53.91886, 21.69683],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_58ff630371cb73ed5d5f52986753208d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2d9a3c1b9e5bb13c10c19472a8bb8bbf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_922638f078f966299527280c45547082 = $(`<div id="html_922638f078f966299527280c45547082" style="width: 100.0%; height: 100.0%;"><b>86.0 pkt</b> &mdash; <i>otodom</i><br>nan<br>0.0 m od: Szymoneckie<br>633200.0 zł / 1287.0 m²<br><a href='https://www.otodom.pl/pl/oferta/gotowe-dzialki-na-mazurach-fvat-23-plaza-pomost-media-ID4BIbX' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_2d9a3c1b9e5bb13c10c19472a8bb8bbf.setContent(html_922638f078f966299527280c45547082);
+            
+        
+
+        marker_99c5978bd7c735a32b6a5ed1d6cc4e82.bindPopup(popup_2d9a3c1b9e5bb13c10c19472a8bb8bbf)
+        ;
+
+        
+    
+    
+                marker_99c5978bd7c735a32b6a5ed1d6cc4e82.setIcon(icon_58ff630371cb73ed5d5f52986753208d);
+            
+    
+            var marker_bb6c0383f099c5aa888af4021d322f46 = L.marker(
+                [54.12355, 20.56418],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_1b3edec362b14031dbfb7e080e7dc471 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_97b6b5cfc3bc269257abdcd79a7708b2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_92d30dd2bd8a721da09b78d0393d85c0 = $(`<div id="html_92d30dd2bd8a721da09b78d0393d85c0" style="width: 100.0%; height: 100.0%;"><b>83.5 pkt</b> &mdash; <i>olx</i><br>Warmińsko-mazurskie, Blanki<br>96.0 m od: jezioro (bez nazwy)<br>110400.0 zł / 2280.0 m²<br><a href='https://www.olx.pl/d/oferta/dzialka-budowlana-nad-jeziorem-2280m2-prywatna-plaza-zadzwon-i-zarezerwuj-CID3-ID1b0hba.html' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_97b6b5cfc3bc269257abdcd79a7708b2.setContent(html_92d30dd2bd8a721da09b78d0393d85c0);
+            
+        
+
+        marker_bb6c0383f099c5aa888af4021d322f46.bindPopup(popup_97b6b5cfc3bc269257abdcd79a7708b2)
+        ;
+
+        
+    
+    
+                marker_bb6c0383f099c5aa888af4021d322f46.setIcon(icon_1b3edec362b14031dbfb7e080e7dc471);
+            
+    
+            var marker_f07d580271dd0d02d5e6285d033d5022 = L.marker(
+                [53.940643, 21.762539],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_d3d9eedf8eaecd5c4c5842aa0ff2045f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_05eab97993dc0875ba1cae710918ce9e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5b54f702186ab6a5506c5254fc1934ca = $(`<div id="html_5b54f702186ab6a5506c5254fc1934ca" style="width: 100.0%; height: 100.0%;"><b>83.5 pkt</b> &mdash; <i>otodom</i><br>nan<br>122.0 m od: Jagodne<br>241000.0 zł / 1013.0 m²<br><a href='https://www.otodom.pl/pl/oferta/osada-jagodne-dzialki-z-dostepem-do-jeziora-jagodne-3-km-od-rydzewa-ID4ysLY' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_05eab97993dc0875ba1cae710918ce9e.setContent(html_5b54f702186ab6a5506c5254fc1934ca);
+            
+        
+
+        marker_f07d580271dd0d02d5e6285d033d5022.bindPopup(popup_05eab97993dc0875ba1cae710918ce9e)
+        ;
+
+        
+    
+    
+                marker_f07d580271dd0d02d5e6285d033d5022.setIcon(icon_d3d9eedf8eaecd5c4c5842aa0ff2045f);
+            
+    
+            var marker_20815e422910b5eb25da26bc4b6ea6a8 = L.marker(
+                [53.84973, 22.623047],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_88f6a64feaf02f8b59baf2eb1394b4a1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4252ea878e0c08ab7d95880d83d5689f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5b4cdc553e04f75c7f8574d4dddca7fb = $(`<div id="html_5b4cdc553e04f75c7f8574d4dddca7fb" style="width: 100.0%; height: 100.0%;"><b>82.5 pkt</b> &mdash; <i>otodom</i><br>nan<br>9.0 m od: Skomętno<br>80000.0 zł / 1807.0 m²<br><a href='https://www.otodom.pl/pl/oferta/dzialka-1800-m-z-mpzp-skometno-wielkie-mazury-ID4Ao4r' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_4252ea878e0c08ab7d95880d83d5689f.setContent(html_5b4cdc553e04f75c7f8574d4dddca7fb);
+            
+        
+
+        marker_20815e422910b5eb25da26bc4b6ea6a8.bindPopup(popup_4252ea878e0c08ab7d95880d83d5689f)
+        ;
+
+        
+    
+    
+                marker_20815e422910b5eb25da26bc4b6ea6a8.setIcon(icon_88f6a64feaf02f8b59baf2eb1394b4a1);
+            
+    
+            var marker_fe4b53fdea6a2121cf6cb40c1d84e255 = L.marker(
+                [53.85665, 22.12581],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_862bc483de6cb2c05eafe0c2673ffc47 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bc9ef0a7d130a358a1b38749bb0fa6b1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1e0133930ebd6edc9d34413d5d62a1da = $(`<div id="html_1e0133930ebd6edc9d34413d5d62a1da" style="width: 100.0%; height: 100.0%;"><b>80.8 pkt</b> &mdash; <i>otodom</i><br>nan<br>2.0 m od: Jezioro Mleczówka<br>220000.0 zł / 3000.0 m²<br><a href='https://www.otodom.pl/pl/oferta/dzialka-z-linia-brzegowa-jeziora-mleczowka-mazury-ID4sZVG' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_bc9ef0a7d130a358a1b38749bb0fa6b1.setContent(html_1e0133930ebd6edc9d34413d5d62a1da);
+            
+        
+
+        marker_fe4b53fdea6a2121cf6cb40c1d84e255.bindPopup(popup_bc9ef0a7d130a358a1b38749bb0fa6b1)
+        ;
+
+        
+    
+    
+                marker_fe4b53fdea6a2121cf6cb40c1d84e255.setIcon(icon_862bc483de6cb2c05eafe0c2673ffc47);
+            
+    
+            var marker_efa723869b6d55a939ea78797d283396 = L.marker(
+                [54.156925, 21.926283],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_7f54a03f66c4fd66ba78a7cf9201f476 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_70d284a637696ea4ca4a37b3def7bd92 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8715debc0977d184a41bb5d100d6e39d = $(`<div id="html_8715debc0977d184a41bb5d100d6e39d" style="width: 100.0%; height: 100.0%;"><b>80.8 pkt</b> &mdash; <i>otodom</i><br>nan<br>28.0 m od: Jezioro Wilkus<br>200000.0 zł / 3001.0 m²<br><a href='https://www.otodom.pl/pl/oferta/dzialka-z-linia-brzegowa-jeziora-wilkus-mazury-ID4szoN' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_70d284a637696ea4ca4a37b3def7bd92.setContent(html_8715debc0977d184a41bb5d100d6e39d);
+            
+        
+
+        marker_efa723869b6d55a939ea78797d283396.bindPopup(popup_70d284a637696ea4ca4a37b3def7bd92)
+        ;
+
+        
+    
+    
+                marker_efa723869b6d55a939ea78797d283396.setIcon(icon_7f54a03f66c4fd66ba78a7cf9201f476);
+            
+    
+            var marker_4fac67ef7ba9e0eee83cb6468d11f25f = L.marker(
+                [53.93763, 21.54531],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_55a88bc4db78378f55cf345afeae5945 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3e20b498c9d59ce61e13e55b92b3bd86 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_69c57a054e1e10423e44b6ce55d57f62 = $(`<div id="html_69c57a054e1e10423e44b6ce55d57f62" style="width: 100.0%; height: 100.0%;"><b>78.2 pkt</b> &mdash; <i>olx</i><br>Warmińsko-mazurskie, Ryn<br>73.0 m od: Ryńskie<br>299000.0 zł / 500.0 m²<br><a href='https://www.olx.pl/d/oferta/dzialka-nad-samym-jeziorem-olow-500-m-rod-wyjatkowa-lokalizacja-zaledwie-8-metrow-od-linii-brzegowej-CID3-ID1atHoM.html' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_3e20b498c9d59ce61e13e55b92b3bd86.setContent(html_69c57a054e1e10423e44b6ce55d57f62);
+            
+        
+
+        marker_4fac67ef7ba9e0eee83cb6468d11f25f.bindPopup(popup_3e20b498c9d59ce61e13e55b92b3bd86)
+        ;
+
+        
+    
+    
+                marker_4fac67ef7ba9e0eee83cb6468d11f25f.setIcon(icon_55a88bc4db78378f55cf345afeae5945);
+            
+    
+            var marker_4495d19a93c4baeafa8ac217ffcb4efa = L.marker(
+                [53.95142, 22.40543],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_9020dabd83fb20bc6ce9fd29a134e595 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_58a1aa9f6dfae5b043403745a05ed54c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_36f97a2d44a4fb833b556c500132b548 = $(`<div id="html_36f97a2d44a4fb833b556c500132b548" style="width: 100.0%; height: 100.0%;"><b>78.2 pkt</b> &mdash; <i>olx</i><br>Warmińsko-mazurskie, Kukówko<br>67.0 m od: jezioro (bez nazwy)<br>760000.0 zł / 4627.0 m²<br><a href='https://www.olx.pl/d/oferta/dzialka-z-linia-brzegowa-warunki-zabudowy-kukowko-CID3-ID1aVx9Z.html' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_58a1aa9f6dfae5b043403745a05ed54c.setContent(html_36f97a2d44a4fb833b556c500132b548);
+            
+        
+
+        marker_4495d19a93c4baeafa8ac217ffcb4efa.bindPopup(popup_58a1aa9f6dfae5b043403745a05ed54c)
+        ;
+
+        
+    
+    
+                marker_4495d19a93c4baeafa8ac217ffcb4efa.setIcon(icon_9020dabd83fb20bc6ce9fd29a134e595);
+            
+    
+            var marker_70a9723e1e15c0ad9c88447eaddb2317 = L.marker(
+                [53.870823, 21.558825],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_79cfb5f74293c11c5201d4881ee966d9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c6e0dce7327777e83bdd890cb33983fc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_eafe94a9c9dbd40bf4ba7b297e003dd3 = $(`<div id="html_eafe94a9c9dbd40bf4ba7b297e003dd3" style="width: 100.0%; height: 100.0%;"><b>78.2 pkt</b> &mdash; <i>otodom</i><br>nan<br>98.0 m od: jezioro (bez nazwy)<br>399000.0 zł / 1409.0 m²<br><a href='https://www.otodom.pl/pl/oferta/druga-linia-zab-od-jeziora-dostep-do-jeziora-miejsce-cumownicze-ID4xmIh' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_c6e0dce7327777e83bdd890cb33983fc.setContent(html_eafe94a9c9dbd40bf4ba7b297e003dd3);
+            
+        
+
+        marker_70a9723e1e15c0ad9c88447eaddb2317.bindPopup(popup_c6e0dce7327777e83bdd890cb33983fc)
+        ;
+
+        
+    
+    
+                marker_70a9723e1e15c0ad9c88447eaddb2317.setIcon(icon_79cfb5f74293c11c5201d4881ee966d9);
+            
+    
+            var marker_8fe6882fe8ce4ec5d6adf25e1046d376 = L.marker(
+                [53.744343, 19.844658],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_582fccad0c98de7b8f368d5b89074293 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cb7438f8a75a28dbd755c1c29d9ab734 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a2db9a29ccc3adf245f59dc11e3749cc = $(`<div id="html_a2db9a29ccc3adf245f59dc11e3749cc" style="width: 100.0%; height: 100.0%;"><b>75.5 pkt</b> &mdash; <i>otodom</i><br>nan<br>40.0 m od: jezioro (bez nazwy)<br>159000.0 zł / 4065.0 m²<br><a href='https://www.otodom.pl/pl/oferta/dzialka-z-linia-brzegowa-kanalu-elblaskiego-otoczenie-drzew-ID4BIqP' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_cb7438f8a75a28dbd755c1c29d9ab734.setContent(html_a2db9a29ccc3adf245f59dc11e3749cc);
+            
+        
+
+        marker_8fe6882fe8ce4ec5d6adf25e1046d376.bindPopup(popup_cb7438f8a75a28dbd755c1c29d9ab734)
+        ;
+
+        
+    
+    
+                marker_8fe6882fe8ce4ec5d6adf25e1046d376.setIcon(icon_582fccad0c98de7b8f368d5b89074293);
+            
+    
+            var marker_abc77c514bd3ee12ca922bba846a2c6e = L.marker(
+                [53.750088, 20.615864],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_56b5b73606e657da31016f09abcccd81 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ce7d55d3ffb30b8b7612dad622b48208 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d392956800222d4018bda581436e3bd6 = $(`<div id="html_d392956800222d4018bda581436e3bd6" style="width: 100.0%; height: 100.0%;"><b>75.5 pkt</b> &mdash; <i>otodom</i><br>nan<br>41.0 m od: Jezioro Silickie<br>309000.0 zł / 2989.0 m²<br><a href='https://www.otodom.pl/pl/oferta/dzialki-budowlane-z-bezposrednia-linia-brzegowa-jeziora-silickiego-ID4Bsda' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_ce7d55d3ffb30b8b7612dad622b48208.setContent(html_d392956800222d4018bda581436e3bd6);
+            
+        
+
+        marker_abc77c514bd3ee12ca922bba846a2c6e.bindPopup(popup_ce7d55d3ffb30b8b7612dad622b48208)
+        ;
+
+        
+    
+    
+                marker_abc77c514bd3ee12ca922bba846a2c6e.setIcon(icon_56b5b73606e657da31016f09abcccd81);
+            
+    
+            var marker_c9cd9a285aced490d5737e5a47d9c625 = L.marker(
+                [53.68513, 21.85198],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_837adc9f594eaac435b6c14285cf1481 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1a0b5b07f0d542c142114a2b42acb773 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b8a887b9449863585ae84d3bdf5dbb10 = $(`<div id="html_b8a887b9449863585ae84d3bdf5dbb10" style="width: 100.0%; height: 100.0%;"><b>73.0 pkt</b> &mdash; <i>olx</i><br>Warmińsko-mazurskie, Szczechy Małe<br>90.0 m od: Roś<br>259000.0 zł / 2000.0 m²<br><a href='https://www.olx.pl/d/oferta/dzialka-nad-jeziorem-ros-z-dostepem-do-linii-brzegowej-i-pomostu-mazury-szczechy-male-CID3-ID16tASr.html' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_1a0b5b07f0d542c142114a2b42acb773.setContent(html_b8a887b9449863585ae84d3bdf5dbb10);
+            
+        
+
+        marker_c9cd9a285aced490d5737e5a47d9c625.bindPopup(popup_1a0b5b07f0d542c142114a2b42acb773)
+        ;
+
+        
+    
+    
+                marker_c9cd9a285aced490d5737e5a47d9c625.setIcon(icon_837adc9f594eaac435b6c14285cf1481);
+            
+    
+            var marker_5eac1484d703466d2cef75a63f4d95ed = L.marker(
+                [54.282246, 22.475136],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_50e293eafaaae41a40c8d2f7128f8028 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c545f839abafd54d5b1c6648d46b2609 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_23b5ff1030df7bb75fa81aba5c75e3b6 = $(`<div id="html_23b5ff1030df7bb75fa81aba5c75e3b6" style="width: 100.0%; height: 100.0%;"><b>73.0 pkt</b> &mdash; <i>olx</i><br>Warmińsko-mazurskie, Ostrowo<br>97.0 m od: Jezioro Czarne<br>222222.0 zł / 3251.0 m²<br><a href='https://www.olx.pl/d/oferta/piekna-dzialka-z-linia-brzegowa-jezioro-czarne-pluszkiejmy-CID3-ID1aIZO4.html' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_c545f839abafd54d5b1c6648d46b2609.setContent(html_23b5ff1030df7bb75fa81aba5c75e3b6);
+            
+        
+
+        marker_5eac1484d703466d2cef75a63f4d95ed.bindPopup(popup_c545f839abafd54d5b1c6648d46b2609)
+        ;
+
+        
+    
+    
+                marker_5eac1484d703466d2cef75a63f4d95ed.setIcon(icon_50e293eafaaae41a40c8d2f7128f8028);
+            
+    
+            var marker_03e3872bc05a4032ffd8505c94333fe4 = L.marker(
+                [53.85788, 20.063276],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_42fd6d1543cc79b58d167ad843309a54 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_14dad09597a1e4756b03dc75a7aa6ef4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3d85e8f964b38f4267949d4c5a7d5d62 = $(`<div id="html_3d85e8f964b38f4267949d4c5a7d5d62" style="width: 100.0%; height: 100.0%;"><b>73.0 pkt</b> &mdash; <i>otodom</i><br>nan<br>78.0 m od: Marąg<br>1900000.0 zł / 14865.0 m²<br><a href='https://www.otodom.pl/pl/oferta/gubity-wlasna-linia-brzegowa-jeziora-ID4BGfq' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_14dad09597a1e4756b03dc75a7aa6ef4.setContent(html_3d85e8f964b38f4267949d4c5a7d5d62);
+            
+        
+
+        marker_03e3872bc05a4032ffd8505c94333fe4.bindPopup(popup_14dad09597a1e4756b03dc75a7aa6ef4)
+        ;
+
+        
+    
+    
+                marker_03e3872bc05a4032ffd8505c94333fe4.setIcon(icon_42fd6d1543cc79b58d167ad843309a54);
+            
+    
+            var marker_adc3b75a9ffb244dcab72c3635dc660f = L.marker(
+                [53.931854, 21.262299],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_f2f73a89d6460da0cb7a9cc8aa398567 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c3fc5a5628a7814f540f0228f1ff91a9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_195b4fa2bbc1b41a854054ae57421a00 = $(`<div id="html_195b4fa2bbc1b41a854054ae57421a00" style="width: 100.0%; height: 100.0%;"><b>73.0 pkt</b> &mdash; <i>otodom</i><br>nan<br>63.0 m od: Jezioro Juno<br>483844.0 zł / 1403.0 m²<br><a href='https://www.otodom.pl/pl/oferta/dzialka-budowlana-z-linia-brzegowa-kiersztanowo-ID4BGXX' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_c3fc5a5628a7814f540f0228f1ff91a9.setContent(html_195b4fa2bbc1b41a854054ae57421a00);
+            
+        
+
+        marker_adc3b75a9ffb244dcab72c3635dc660f.bindPopup(popup_c3fc5a5628a7814f540f0228f1ff91a9)
+        ;
+
+        
+    
+    
+                marker_adc3b75a9ffb244dcab72c3635dc660f.setIcon(icon_f2f73a89d6460da0cb7a9cc8aa398567);
+            
+    
+            var marker_4e3b732505c4ea5cb6f60f9645864dbf = L.marker(
+                [53.90663, 22.27371],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_042ab5724412dc59b621d3454ad669f6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_421c4cbe20ea4b19f5048e9da450787c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b81cf1463628c0030d3b77a9589419b3 = $(`<div id="html_b81cf1463628c0030d3b77a9589419b3" style="width: 100.0%; height: 100.0%;"><b>72.0 pkt</b> &mdash; <i>otodom</i><br>nan<br>45.0 m od: Łaśmiady<br>999000.0 zł / 11900.0 m²<br><a href='https://www.otodom.pl/pl/oferta/dzialka-1-19-ha-blisko-jeziora-lasmiady-ID4BHdp' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_421c4cbe20ea4b19f5048e9da450787c.setContent(html_b81cf1463628c0030d3b77a9589419b3);
+            
+        
+
+        marker_4e3b732505c4ea5cb6f60f9645864dbf.bindPopup(popup_421c4cbe20ea4b19f5048e9da450787c)
+        ;
+
+        
+    
+    
+                marker_4e3b732505c4ea5cb6f60f9645864dbf.setIcon(icon_042ab5724412dc59b621d3454ad669f6);
+            
+    
+            var marker_9ed6a6b6aff3be6ff3a45fff7bc59fe6 = L.marker(
+                [53.82886, 22.23178],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_54137da93aa723fc401d9fde558acb21 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_230e9bff678d9df15119a0c2d0e09d58 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6573dfab56097aeda59f598108a10463 = $(`<div id="html_6573dfab56097aeda59f598108a10463" style="width: 100.0%; height: 100.0%;"><b>70.2 pkt</b> &mdash; <i>otodom</i><br>nan<br>0.0 m od: Mołdzie<br>370000.0 zł / 4016.0 m²<br><a href='https://www.otodom.pl/pl/oferta/dzialka-z-wz-na-wzniesieniu-nad-jeziorem-lepaki-wielkie-ID4pZWD' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_230e9bff678d9df15119a0c2d0e09d58.setContent(html_6573dfab56097aeda59f598108a10463);
+            
+        
+
+        marker_9ed6a6b6aff3be6ff3a45fff7bc59fe6.bindPopup(popup_230e9bff678d9df15119a0c2d0e09d58)
+        ;
+
+        
+    
+    
+                marker_9ed6a6b6aff3be6ff3a45fff7bc59fe6.setIcon(icon_54137da93aa723fc401d9fde558acb21);
+            
+    
+            var marker_9fa2fc7065f2125b06139decdc0e4819 = L.marker(
+                [54.19414, 21.674807],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_3867a1872408c31a0222dfd554ecadda = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6a4585bc2332401266a499e385ccabee = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_56a300e1eb0832efc54596de543c5d6f = $(`<div id="html_56a300e1eb0832efc54596de543c5d6f" style="width: 100.0%; height: 100.0%;"><b>67.8 pkt</b> &mdash; <i>otodom</i><br>nan<br>129.0 m od: Mamry<br>299000.0 zł / 1800.0 m²<br><a href='https://www.otodom.pl/pl/oferta/dzialka-na-szlaku-z-widokiem-oraz-dostepem-do-jeziora-mamry-trygort-ID4BFOg' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_6a4585bc2332401266a499e385ccabee.setContent(html_56a300e1eb0832efc54596de543c5d6f);
+            
+        
+
+        marker_9fa2fc7065f2125b06139decdc0e4819.bindPopup(popup_6a4585bc2332401266a499e385ccabee)
+        ;
+
+        
+    
+    
+                marker_9fa2fc7065f2125b06139decdc0e4819.setIcon(icon_3867a1872408c31a0222dfd554ecadda);
+            
+    
+            var marker_0185235ce95e3d4c0bab548d1439aabb = L.marker(
+                [53.78007, 22.622599],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_163de111d0afb7a8c3c7a2c2420cb4a0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8804a21a6752c3c87c4b9ac806ef867b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4c303d18b32cbcec5ff0eb3949801550 = $(`<div id="html_4c303d18b32cbcec5ff0eb3949801550" style="width: 100.0%; height: 100.0%;"><b>67.2 pkt</b> &mdash; <i>otodom</i><br>nan<br>180.0 m od: jezioro (bez nazwy)<br>259000.0 zł / 3331.0 m²<br><a href='https://www.otodom.pl/pl/oferta/dzialki-nad-jeziorem-stackim-komfortowy-dojazd-trasa-s8-i-s61-ID4AxYD' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_8804a21a6752c3c87c4b9ac806ef867b.setContent(html_4c303d18b32cbcec5ff0eb3949801550);
+            
+        
+
+        marker_0185235ce95e3d4c0bab548d1439aabb.bindPopup(popup_8804a21a6752c3c87c4b9ac806ef867b)
+        ;
+
+        
+    
+    
+                marker_0185235ce95e3d4c0bab548d1439aabb.setIcon(icon_163de111d0afb7a8c3c7a2c2420cb4a0);
+            
+    
+            var marker_596b93ae16ec4dd1a07aa10a9d5af4b6 = L.marker(
+                [53.871273, 21.55749],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_18ae896c1f40109cfabcee72daa7fb6d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e6e8c2a7bc4f8ef765ecf18f4f1c7c01 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a22e671ac4936cf8a9769aa4ba8ecfce = $(`<div id="html_a22e671ac4936cf8a9769aa4ba8ecfce" style="width: 100.0%; height: 100.0%;"><b>67.2 pkt</b> &mdash; <i>otodom</i><br>nan<br>180.0 m od: jezioro (bez nazwy)<br>225000.0 zł / 805.0 m²<br><a href='https://www.otodom.pl/pl/oferta/dzialka-z-dostepem-do-prywatnej-plazy-mozliwosc-odliczenia-23-vat-ID4ysKL' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_e6e8c2a7bc4f8ef765ecf18f4f1c7c01.setContent(html_a22e671ac4936cf8a9769aa4ba8ecfce);
+            
+        
+
+        marker_596b93ae16ec4dd1a07aa10a9d5af4b6.bindPopup(popup_e6e8c2a7bc4f8ef765ecf18f4f1c7c01)
+        ;
+
+        
+    
+    
+                marker_596b93ae16ec4dd1a07aa10a9d5af4b6.setIcon(icon_18ae896c1f40109cfabcee72daa7fb6d);
+            
+    
+            var marker_490cf34c43924eed2a2d778a502594be = L.marker(
+                [53.90577, 22.27496],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_a32fe14963f5002d4ae14e5718764b05 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0ca5a66ec31a0815df7da7898d7ecf32 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_749946070d5b7934be2578cc9560557e = $(`<div id="html_749946070d5b7934be2578cc9560557e" style="width: 100.0%; height: 100.0%;"><b>67.2 pkt</b> &mdash; <i>otodom</i><br>nan<br>164.0 m od: Łaśmiady<br>390000.0 zł / 1508.0 m²<br><a href='https://www.otodom.pl/pl/oferta/wyjatkowa-dzialka-z-linia-brzegowa-jeziora-lasmiady-ID4BGDN' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_0ca5a66ec31a0815df7da7898d7ecf32.setContent(html_749946070d5b7934be2578cc9560557e);
+            
+        
+
+        marker_490cf34c43924eed2a2d778a502594be.bindPopup(popup_0ca5a66ec31a0815df7da7898d7ecf32)
+        ;
+
+        
+    
+    
+                marker_490cf34c43924eed2a2d778a502594be.setIcon(icon_a32fe14963f5002d4ae14e5718764b05);
+            
+    
+            var marker_9339090d246bd113b31255589129247d = L.marker(
+                [53.96081, 22.15675],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_f545a1cad07c806986cf3105f3edd5d5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_52a6e591061bca8c0032b9a5a7040bb5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_92fbc871021f726a013c50a6d8e36569 = $(`<div id="html_92fbc871021f726a013c50a6d8e36569" style="width: 100.0%; height: 100.0%;"><b>66.8 pkt</b> &mdash; <i>olx</i><br>Warmińsko-mazurskie, Orzechowo<br>0.0 m od: Szóstak<br>34000.0 zł / 800.0 m²<br><a href='https://www.olx.pl/d/oferta/dzialka-w-poblizu-jeziora-szostak-800-m-mazury-ogrodzona-prad-CID3-ID1aknon.html' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_52a6e591061bca8c0032b9a5a7040bb5.setContent(html_92fbc871021f726a013c50a6d8e36569);
+            
+        
+
+        marker_9339090d246bd113b31255589129247d.bindPopup(popup_52a6e591061bca8c0032b9a5a7040bb5)
+        ;
+
+        
+    
+    
+                marker_9339090d246bd113b31255589129247d.setIcon(icon_f545a1cad07c806986cf3105f3edd5d5);
+            
+    
+            var marker_6426faa1b544ee910de77c34c54e7b67 = L.marker(
+                [54.25325, 20.81024],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_a125e9ea82598ffc33aa39ad4e83221b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_04cb96747eb10edb4e22f62d6114a8c9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_deee7b7cd6cb6c22cefb3755e7b1f0d9 = $(`<div id="html_deee7b7cd6cb6c22cefb3755e7b1f0d9" style="width: 100.0%; height: 100.0%;"><b>65.0 pkt</b> &mdash; <i>olx</i><br>Warmińsko-mazurskie, Bartoszyce<br>21.0 m od: jezioro (bez nazwy)<br>36000.0 zł / 1335.0 m²<br><a href='https://www.olx.pl/d/oferta/dzialka-rolna-spytajny-CID3-ID1alUrY.html' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_04cb96747eb10edb4e22f62d6114a8c9.setContent(html_deee7b7cd6cb6c22cefb3755e7b1f0d9);
+            
+        
+
+        marker_6426faa1b544ee910de77c34c54e7b67.bindPopup(popup_04cb96747eb10edb4e22f62d6114a8c9)
+        ;
+
+        
+    
+    
+                marker_6426faa1b544ee910de77c34c54e7b67.setIcon(icon_a125e9ea82598ffc33aa39ad4e83221b);
+            
+    
+            var marker_d0cdfda12bf8ec29ab58476fbf01d79a = L.marker(
+                [53.42103, 19.59436],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_e8fb87270fb277473fd38904a5b70ad1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_857a65d8e4b9b39c62a9f4b6d969bc0f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4f13afdf8afe37de102c752cb61548da = $(`<div id="html_4f13afdf8afe37de102c752cb61548da" style="width: 100.0%; height: 100.0%;"><b>65.0 pkt</b> &mdash; <i>olx</i><br>Warmińsko-mazurskie, Nowe Miasto Lubawskie<br>2.0 m od: jezioro (bez nazwy)<br>26000.0 zł / 360.0 m²<br><a href='https://www.olx.pl/d/oferta/dzialka-ogrodowa-CID3-ID1awp9w.html' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_857a65d8e4b9b39c62a9f4b6d969bc0f.setContent(html_4f13afdf8afe37de102c752cb61548da);
+            
+        
+
+        marker_d0cdfda12bf8ec29ab58476fbf01d79a.bindPopup(popup_857a65d8e4b9b39c62a9f4b6d969bc0f)
+        ;
+
+        
+    
+    
+                marker_d0cdfda12bf8ec29ab58476fbf01d79a.setIcon(icon_e8fb87270fb277473fd38904a5b70ad1);
+            
+    
+            var marker_21276e13d9a09342f9400601971e4d47 = L.marker(
+                [53.86339, 21.31182],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_b0fff683d55f97e8bf580901246faee0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b71e27fcafbce3ec0729f92918784881 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e49c0bf890a29b27ef23fc7b25a1e3d2 = $(`<div id="html_e49c0bf890a29b27ef23fc7b25a1e3d2" style="width: 100.0%; height: 100.0%;"><b>65.0 pkt</b> &mdash; <i>olx</i><br>Warmińsko-mazurskie, Mrągowo<br>0.0 m od: Czos<br>120000.0 zł / 1244.0 m²<br><a href='https://www.olx.pl/d/oferta/sprzedam-dzialke-budowlana-polska-wies-kolonia-CID3-ID1aQ75l.html' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_b71e27fcafbce3ec0729f92918784881.setContent(html_e49c0bf890a29b27ef23fc7b25a1e3d2);
+            
+        
+
+        marker_21276e13d9a09342f9400601971e4d47.bindPopup(popup_b71e27fcafbce3ec0729f92918784881)
+        ;
+
+        
+    
+    
+                marker_21276e13d9a09342f9400601971e4d47.setIcon(icon_b0fff683d55f97e8bf580901246faee0);
+            
+    
+            var marker_0fd1d646f79c323f97d86d05dfc39023 = L.marker(
+                [53.86339, 21.31182],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_f02ae073031e9be73385886af224e25d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e3b1edde8cfb3ec4868655ff84a1007b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d58d04bbd7465acc16397a8cd1a403b4 = $(`<div id="html_d58d04bbd7465acc16397a8cd1a403b4" style="width: 100.0%; height: 100.0%;"><b>65.0 pkt</b> &mdash; <i>olx</i><br>Warmińsko-mazurskie, Mrągowo<br>0.0 m od: Czos<br>163000.0 zł / 60.0 m²<br><a href='https://www.olx.pl/d/oferta/nowy-domek-rekreacyjny-wraz-z-dzialka-mragowo-rod-lasowiec-CID3-ID1aVEXy.html' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_e3b1edde8cfb3ec4868655ff84a1007b.setContent(html_d58d04bbd7465acc16397a8cd1a403b4);
+            
+        
+
+        marker_0fd1d646f79c323f97d86d05dfc39023.bindPopup(popup_e3b1edde8cfb3ec4868655ff84a1007b)
+        ;
+
+        
+    
+    
+                marker_0fd1d646f79c323f97d86d05dfc39023.setIcon(icon_f02ae073031e9be73385886af224e25d);
+            
+    
+            var marker_5b97af57bb7574facaebc8196e6506de = L.marker(
+                [53.49574, 20.55959],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_43f696107bceee958700d7a5f7f24849 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e66ac25276ef8c17c6a5512e3ce0bbca = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_926e780cfaff14db2a2924adc7b8f53a = $(`<div id="html_926e780cfaff14db2a2924adc7b8f53a" style="width: 100.0%; height: 100.0%;"><b>65.0 pkt</b> &mdash; <i>olx</i><br>Warmińsko-mazurskie, Jabłonka<br>0.0 m od: Omulew<br>125000.0 zł / 2000.0 m²<br><a href='https://www.olx.pl/d/oferta/dzialka-2000-m-300-m-od-jeziora-omulew-natura-2000-2h-od-warszawy-jablonka-gm-nidzica-CID3-ID1b0ffX.html' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_e66ac25276ef8c17c6a5512e3ce0bbca.setContent(html_926e780cfaff14db2a2924adc7b8f53a);
+            
+        
+
+        marker_5b97af57bb7574facaebc8196e6506de.bindPopup(popup_e66ac25276ef8c17c6a5512e3ce0bbca)
+        ;
+
+        
+    
+    
+                marker_5b97af57bb7574facaebc8196e6506de.setIcon(icon_43f696107bceee958700d7a5f7f24849);
+            
+    
+            var marker_b8456d665510e5da547223d8c5e5a431 = L.marker(
+                [53.91946, 22.21384],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_020e7a56f6b654238ece11eb290a4472 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_904d715d7a7d79e0f120acddfeeab9a1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ad89433916831f059dd65a61c057a492 = $(`<div id="html_ad89433916831f059dd65a61c057a492" style="width: 100.0%; height: 100.0%;"><b>65.0 pkt</b> &mdash; <i>olx</i><br>Warmińsko-mazurskie, Gorło<br>47.0 m od: Ułówki<br>495000.0 zł / 5400.0 m²<br><a href='https://www.olx.pl/d/oferta/dzialka-budowlana-gorlo-25km-od-elk-ok-5870mk-mazury-jezioro-ulowek-CID3-ID13NYif.html' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_904d715d7a7d79e0f120acddfeeab9a1.setContent(html_ad89433916831f059dd65a61c057a492);
+            
+        
+
+        marker_b8456d665510e5da547223d8c5e5a431.bindPopup(popup_904d715d7a7d79e0f120acddfeeab9a1)
+        ;
+
+        
+    
+    
+                marker_b8456d665510e5da547223d8c5e5a431.setIcon(icon_020e7a56f6b654238ece11eb290a4472);
+            
+    
+            var marker_0674394745a57aa1fc272cfa0274b2ea = L.marker(
+                [53.66855, 20.848648],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_91d0e27b01328848f36197efd5f66e29 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_db2fdb73dc8df8642c9ad02d9a8140f1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7449bbbbfe443c78c3698a8531c7962f = $(`<div id="html_7449bbbbfe443c78c3698a8531c7962f" style="width: 100.0%; height: 100.0%;"><b>62.5 pkt</b> &mdash; <i>olx</i><br>Warmińsko-mazurskie, Elganowo<br>125.0 m od: jezioro (bez nazwy)<br>59000.0 zł / 1000.0 m²<br><a href='https://www.olx.pl/d/oferta/dzialka-mazury-z-linia-brzegowa-jeziora-CID3-ID1aOVsE.html' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_db2fdb73dc8df8642c9ad02d9a8140f1.setContent(html_7449bbbbfe443c78c3698a8531c7962f);
+            
+        
+
+        marker_0674394745a57aa1fc272cfa0274b2ea.bindPopup(popup_db2fdb73dc8df8642c9ad02d9a8140f1)
+        ;
+
+        
+    
+    
+                marker_0674394745a57aa1fc272cfa0274b2ea.setIcon(icon_91d0e27b01328848f36197efd5f66e29);
+            
+    
+            var marker_ef6ebc2240b6a9aaafbfaedc372ebc9a = L.marker(
+                [53.78844, 19.549189],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_46fc6bd465a58beebafe0b25b88ca9ef = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_005761f1d62d51761882ca146070058f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_03712e788ac663240e08f3c1c18bff5c = $(`<div id="html_03712e788ac663240e08f3c1c18bff5c" style="width: 100.0%; height: 100.0%;"><b>62.0 pkt</b> &mdash; <i>olx</i><br>Warmińsko-mazurskie, Rucewo<br>197.0 m od: Rucewo Małe<br>59484.0 zł / 438.9 m²<br><a href='https://www.olx.pl/d/oferta/dzialka-z-wlasna-linia-brzegowa-nad-jeziorem-rucewo-obok-jez-jeziorak-CID3-ID1avQf5.html' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_005761f1d62d51761882ca146070058f.setContent(html_03712e788ac663240e08f3c1c18bff5c);
+            
+        
+
+        marker_ef6ebc2240b6a9aaafbfaedc372ebc9a.bindPopup(popup_005761f1d62d51761882ca146070058f)
+        ;
+
+        
+    
+    
+                marker_ef6ebc2240b6a9aaafbfaedc372ebc9a.setIcon(icon_46fc6bd465a58beebafe0b25b88ca9ef);
+            
+    
+            var marker_d8da83215705d2e93ec2cebc85883ed0 = L.marker(
+                [53.69385, 20.411116],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_d3c87183f141aae20c2f29580f8861d4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_348e42ea2442844b7d47e63a8026eb17 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8c303fe32fd8fe7e23bbbff0fd922d31 = $(`<div id="html_8c303fe32fd8fe7e23bbbff0fd922d31" style="width: 100.0%; height: 100.0%;"><b>59.0 pkt</b> &mdash; <i>otodom</i><br>nan<br>114.0 m od: Jezioro Wulpińskie<br>1950000.0 zł / 13000.0 m²<br><a href='https://www.otodom.pl/pl/oferta/dzialka-inwestycyjna-mpzp-blisko-jeziora-dorotowo-ID4BHTA' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_348e42ea2442844b7d47e63a8026eb17.setContent(html_8c303fe32fd8fe7e23bbbff0fd922d31);
+            
+        
+
+        marker_d8da83215705d2e93ec2cebc85883ed0.bindPopup(popup_348e42ea2442844b7d47e63a8026eb17)
+        ;
+
+        
+    
+    
+                marker_d8da83215705d2e93ec2cebc85883ed0.setIcon(icon_d3c87183f141aae20c2f29580f8861d4);
+            
+    
+            var marker_0c8a42e3806e1919f5fd25a873956ff0 = L.marker(
+                [53.822296, 22.428072],
+                {
+}
+            ).addTo(map_cf7b1f9e58432abc5415aadf27771b68);
+        
+    
+            var icon_0c1c63dfcc61724c9c0f7e3a9b987267 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fd0d300ef1d1eda2aba04961340eff96 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6c4a67cd2463e121343b802ed7be1202 = $(`<div id="html_6c4a67cd2463e121343b802ed7be1202" style="width: 100.0%; height: 100.0%;"><b>57.2 pkt</b> &mdash; <i>otodom</i><br>nan<br>107.0 m od: Selmęt Wielki<br>175000.0 zł / 1256.0 m²<br><a href='https://www.otodom.pl/pl/oferta/dzialka-w-doskonalej-lokalizacji-ID4BFVC' target='_blank'>otwórz ogłoszenie</a></div>`)[0];
+                popup_fd0d300ef1d1eda2aba04961340eff96.setContent(html_6c4a67cd2463e121343b802ed7be1202);
+            
+        
+
+        marker_0c8a42e3806e1919f5fd25a873956ff0.bindPopup(popup_fd0d300ef1d1eda2aba04961340eff96)
+        ;
+
+        
+    
+    
+                marker_0c8a42e3806e1919f5fd25a873956ff0.setIcon(icon_0c1c63dfcc61724c9c0f7e3a9b987267);
+            
+</script>
+</html>
